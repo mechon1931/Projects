@@ -1,0 +1,151 @@
+body {
+  background-color: white;
+  font-family: 'Markazi Text', serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: green;
+  color: yellow;
+  border-color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+header ~ img {
+  display: block;
+  margin: auto;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+nav li  {
+  display: inline-block;
+  font-size: x-large;
+  border-style: ridge;
+
+  
+}
+
+section {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sale {
+  margin: 5px;
+  text-align: center;
+  position: relative;
+  
+}
+
+.leftHeading {
+  border-style: solid;
+  border-radius: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  background-image: url(/Logos/LuckyShrub/Leftheading.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.middleHeading {
+  border-style: solid;
+  border-radius: 15px;
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-image: url(/Logos/LuckyShrub/Leftheading.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.rightHeading {
+  border-style: solid;
+  border-radius: 15px;
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-image: url(/Logos/LuckyShrub/Leftheading.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+article {
+  flex: 1;
+}
+/* Weekend Sale image */
+article > img {
+  float: right;
+  border-style: solid;
+  border-color: white;
+  padding: 5px;
+  margin-left: 5px;  
+}
+
+
+/* buy now button */
+.buynow  {
+  display: flex;
+  cursor: pointer;
+  font-size: 4px 2px;
+  margin: 4px 2px;
+  text-align: center; 
+  margin: center;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy:hover {
+  background-color: aqua;
+}
+
+.sale  {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(16, 156, 74);
+
+}
+/* form css */
+form {
+  display: block;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+
+
+footer {
+  display: flex;
+  text-align: right;
+}
+
+footer div {
+  flex: 1;
+}
